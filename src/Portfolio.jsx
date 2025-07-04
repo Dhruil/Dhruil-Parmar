@@ -405,8 +405,8 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="mx-40">
+      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 ">
+        <div className="xl:mx-40">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">About Me</h2>
             <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
