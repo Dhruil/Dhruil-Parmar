@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import { sId,tId,pKey } from "./assets/dp";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -236,9 +237,9 @@ export default function Portfolio() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = "service_j4nktci"; // ← Replace with your EmailJS service ID
-    const templateId = "template_tbhsf6b"; // ← Replace with your EmailJS template ID
-    const publicKey = "2g_fswdwhO5UoGgF4"; // ← Replace with your EmailJS public key
+    const serviceId = sId; // ← Replace with your EmailJS service ID
+    const templateId = tId; // ← Replace with your EmailJS template ID
+    const publicKey = pKey; // ← Replace with your EmailJS public key
 
     const templateParams = {
       from_name: formData.name,
