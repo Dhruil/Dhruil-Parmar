@@ -206,7 +206,7 @@ export default function Portfolio() {
     {
       title: "Emerging Technologies (AI & Cloud) Intern",
       company: "Edunet Foundation",
-      period: "Jan 2024 - Feb 2025",
+      period: "Jan 2024 - Feb 2024",
       location: "Remote",
       description:
         "Completed an online IBM course focused on AI and cloud technologies. Gained practical knowledge of IBM Watson Assistant and IBM Cloud through hands-on learning and chatbot creation.",
