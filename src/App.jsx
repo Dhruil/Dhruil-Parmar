@@ -8,6 +8,8 @@ function App() {
   return (
     <>
       <Portfolio/>
+      <Analytics />
+
     </>
   )
 }
